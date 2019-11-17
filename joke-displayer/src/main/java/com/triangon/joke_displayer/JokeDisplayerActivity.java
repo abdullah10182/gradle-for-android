@@ -2,8 +2,10 @@ package com.triangon.joke_displayer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 public class JokeDisplayerActivity extends AppCompatActivity {
@@ -19,5 +21,12 @@ public class JokeDisplayerActivity extends AppCompatActivity {
         if (joke != null && joke.length() != 0) {
             jokeTextView.setText(joke);
         }
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        finish();
+        return true;
     }
 }
