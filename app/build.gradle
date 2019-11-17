@@ -48,7 +48,5 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
 
-    implementation project(':joke-factory')
     implementation project(path: ':joke-displayer')
-    //implementation project(':joke-displayer')
 }

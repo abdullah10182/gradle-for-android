@@ -1,25 +1,28 @@
 package com.udacity.gradle.builditbigger;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
 import com.triangon.joke_displayer.JokeDisplayerActivity;
-import com.triangon.joke_factory.JokeFactory;
+//import com.triangon.joke_factory.JokeFactory;
 
 
 public class MainActivity extends AppCompatActivity {
-    private JokeFactory mJokeProvider;
+    //private JokeFactory mJokeProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mJokeProvider = new JokeFactory();
+        //mJokeProvider = new JokeFactory();
     }
 
 
@@ -46,14 +49,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-
-        Toast.makeText(this, mJokeProvider.getAJoke(), Toast.LENGTH_SHORT).show();
+        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, null));
+        //Toast.makeText(this, mJokeProvider.getAJoke(), Toast.LENGTH_SHORT).show();
     }
 
     public void launchJokeActivity(View view) {
         Intent intent = new Intent(this, JokeDisplayerActivity.class);
-        String joke = mJokeProvider.getAJoke();
-        intent.putExtra("joke", joke);
+        //String joke = mJokeProvider.getAJoke();
+        //intent.putExtra("joke", joke);
         startActivity(intent);
     }
 
