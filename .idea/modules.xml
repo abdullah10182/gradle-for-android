@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/gradle-android-project.iml" filepath="$PROJECT_DIR$/gradle-android-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokeprovider/gradle-android-project-jokeprovider.iml" filepath="$PROJECT_DIR$/jokeprovider/gradle-android-project-jokeprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joke-displayer/joke-displayer.iml" filepath="$PROJECT_DIR$/joke-displayer/joke-displayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joke-factory/joke-factory.iml" filepath="$PROJECT_DIR$/joke-factory/joke-factory.iml" />
     </modules>
   </component>
 </project>
