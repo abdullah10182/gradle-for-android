@@ -6,6 +6,7 @@ import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class JokeDisplayerActivity extends AppCompatActivity {
@@ -20,6 +21,8 @@ public class JokeDisplayerActivity extends AppCompatActivity {
         TextView jokeTextView = this.findViewById(R.id.tv_joke);
         if (joke != null && joke.length() != 0) {
             jokeTextView.setText(joke);
+        } else {
+            jokeTextView.setVisibility(View.INVISIBLE);
         }
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

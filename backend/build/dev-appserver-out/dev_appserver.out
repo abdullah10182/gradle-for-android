@@ -1,21 +1,21 @@
-Nov 17, 2019 5:56:51 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Nov 18, 2019 6:07:19 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/abdullah/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/abdullah/Documents/Android Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-2019-11-17 17:56:51.770:INFO::main: Logging initialized @1067ms to org.eclipse.jetty.util.log.StdErrLog
-2019-11-17 17:56:51.852:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
-Nov 17, 2019 9:56:52 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+2019-11-18 18:07:19.876:INFO::main: Logging initialized @740ms to org.eclipse.jetty.util.log.StdErrLog
+2019-11-18 18:07:19.917:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Nov 18, 2019 10:07:20 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (/Users/abdullah/Documents/Android Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend) is not equal to your 
 web application root (/Users/abdullah/Documents/Android Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-2019-11-17 17:56:52.758:INFO:oejs.Server:main: jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_202-release-1483-b49-5587405
-2019-11-17 17:56:53.194:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@7fd50002{/,file:///Users/abdullah/Documents/Android%20Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend/build/exploded-backend/,AVAILABLE}{/Users/abdullah/Documents/Android Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend/build/exploded-backend}
-2019-11-17 17:56:53.194:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
-2019-11-17 17:56:53.194:INFO:oejs.session:main: node0 Scavenging disabled
-2019-11-17 17:56:53.219:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@3632be31{HTTP/1.1,[http/1.1]}{localhost:8080}
-2019-11-17 17:56:53.221:INFO:oejs.Server:main: Started @2519ms
-Nov 17, 2019 9:56:53 PM com.google.appengine.tools.development.AbstractModule startup
+2019-11-18 18:07:20.262:INFO:oejs.Server:main: jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_202-release-1483-b49-5587405
+2019-11-18 18:07:20.677:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@7fd50002{/,file:///Users/abdullah/Documents/Android%20Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend/build/exploded-backend/,AVAILABLE}{/Users/abdullah/Documents/Android Dev/sandbox/android-nano-degree/projects/gradle-android-project/backend/build/exploded-backend}
+2019-11-18 18:07:20.678:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2019-11-18 18:07:20.678:INFO:oejs.session:main: node0 Scavenging disabled
+2019-11-18 18:07:20.691:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@3632be31{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-11-18 18:07:20.707:INFO:oejs.Server:main: Started @1571ms
+Nov 18, 2019 10:07:20 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Nov 17, 2019 9:56:53 PM com.google.appengine.tools.development.AbstractModule startup
+Nov 18, 2019 10:07:20 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Nov 17, 2019 5:56:53 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Nov 18, 2019 6:07:20 PM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
